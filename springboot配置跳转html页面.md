@@ -1,0 +1,1 @@
+[springboot配置跳转页面](https://blog.csdn.net/hzmhy123456/article/details/69525280)
