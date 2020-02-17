@@ -15,4 +15,4 @@ curl: (7) Failed to connect to raw.githubusercontent.com port 443: 拒绝连接
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-难道是官网下载地址错了？？？
+难道是官网下载地址错了？？
