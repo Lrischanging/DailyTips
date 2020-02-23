@@ -7,3 +7,8 @@
 ```
 
 暂时不知道为什么，删掉了本地的秘钥，重新生成一对，绑定github后恢复正常
+
+```
+➜  DailyTips git:(master) ssh -T git@github.com
+Hi Lrischanging! You've successfully authenticated, but GitHub does not provide shell access.
+```
