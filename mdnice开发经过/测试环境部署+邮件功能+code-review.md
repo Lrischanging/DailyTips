@@ -10,7 +10,7 @@
 
 ![](https://files.mdnice.com/pic/a79ede78-6f04-482e-b3dc-88b9964f0139.png)
 
-### 接下来安装Mysql
+### 一.接下来安装Mysql
 
 CentOS 7的默认yum仓库中并没有MySQL5.7，我们需要手动添加，好在MySQL官方提供了仓库的地址，所以我们能够比较简单地安装MySQL。
 
@@ -82,7 +82,7 @@ $ mysql>source /var/ftp/pub/mdnice.sql;
 
 ```
 
-### 接下来安装Redis
+### 二.接下来安装Redis
 
 常用的 epel-release 上的 redis 就是 3.2.12，我们要5.0.7版本
 
@@ -124,3 +124,16 @@ vi redis.conf
 ```
 
 如果无法远程连接到远程Redis，记得要开启服务器的防火墙端口或开放安全组配置
+
+### 三.邮件功能
+
+![](https://files.mdnice.com/pic/860a8e08-6604-4a6a-8262-c649cb30dc82.png)
+
+### 四.CR中出现的问题
+
+1. 杜绝魔法字符串的出现，创建常量包来存放
+
+2. 异常处理要加 log.error
+
+3. 日常环境、测试环境、生产环境的配置文件要明确并分开
+
