@@ -20,4 +20,6 @@ Long.parseLong("String")返回long基本数据类型
 打包后在target目录下可以看到两个jar文件：其中，springboot-exec-jar-1.0-SNAPSHOT.jar.original是Maven标准打包插件打的jar包，它只包含我们自己的Class，不包含依赖，而springboot-exec-jar-1.0-SNAPSHOT.jar是Spring Boot打包插件创建的包含依赖的jar，在target文件夹下可以直接运行：
 ```$ java -jar springboot-exec-jar-1.0-SNAPSHOT.jar```
 
-4. 
+4. Springboot中transferTo()转文件时的坑
+
+[SpringBoot: 浅谈文件上传和访问的坑 (MultiPartFile)](https://www.jianshu.com/p/d8666f2e698f)
