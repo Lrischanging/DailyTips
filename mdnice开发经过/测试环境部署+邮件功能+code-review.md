@@ -125,6 +125,13 @@ vi redis.conf
 
 如果无法远程连接到远程Redis，记得要开启服务器的防火墙端口或开放安全组配置
 
+不知名原因服务器的redis挂掉了，重启后报错：
+(error) DENIED Redis is running in protected mode because protected mode is enabled
+原因是启动服务端的时候没有带上配置文件：在当前配置文件所在目录执行
+```$ redis-server redis.conf```
+
+在执行前先确认redis端口是否已经关闭。
+
 ### 三.邮件功能
 
 ![](https://files.mdnice.com/pic/860a8e08-6604-4a6a-8262-c649cb30dc82.png)
