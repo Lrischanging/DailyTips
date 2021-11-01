@@ -93,3 +93,12 @@ insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,
 insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20717,94,null,null,'838141',1,2,1);
 insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20716,94,null,null,'838140',1,2,1);
 insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20713,94,null,null,'838149',1,2,1);
+
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20647,94,null,null,'838071',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20644,94,null,null,'838077',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20643,94,null,null,'838079',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20640,94,null,null,'838078',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20638,94,null,null,'838095',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20637,94,null,null,'838091',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20635,94,null,null,'838092',2,2,1);
+insert into `hello`.`apply_activity_user` (member_id,apply_activity_id,order_id,coin_record_id,mid,sex,apply_status,pay_type) VALUES (20634,94,null,null,'838097',2,2,1);
