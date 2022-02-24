@@ -1,0 +1,37 @@
+[
+    {
+        "FaceQualityInfo":{
+            "Score":100,
+            "Brightness":32,
+            "Completeness":{
+                "Eye":100,
+                "Nose":100,
+                "Cheek":98,
+                "Mouth":100,
+                "Chin":97,
+                "Eyebrow":95},
+            "Sharpness":70
+        },
+        "X":541,
+        "Y":159,
+        "Height":222,
+        "Width":173,
+        "FaceAttributesInfo":{
+            "Beauty":81,
+            "Hair":{
+                "Length":3,
+                "Bang":1,
+                "Color":2},
+            "Expression":7,
+            "EyeOpen":true,
+            "Glass":false,
+            "Pitch":10,
+            "Mask":false,
+            "Hat":false,
+            "Gender":0,
+            "Roll":2,
+            "Age":24,
+            "Yaw":-4
+        }
+    }
+]
