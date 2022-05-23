@@ -1,29 +1,39 @@
-SELECT  u.mid
-       ,u.pay_type
-       ,i.change_amount
-       ,i.change_tmp_amount
-FROM
-(
-	SELECT  *
-	FROM apply_activity_user AS y
-	WHERE y.apply_activity_id=93
-	AND y.member_id not IN ( SELECT member_id FROM select_action WHERE select_activity_id=4 AND select_status in (1,3,4)) 
-) AS u
-JOIN `hello`.`coin_record` AS i
-ON u.coin_record_id=i.id
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 398, 23087, 397, 23086, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 4, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
 
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 397, 23086, 398, 23087, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 4, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
 
-UNION
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 1, 20870, 2, 20871, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 2, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
 
-SELECT  u.mid
-       ,u.pay_type
-       ,i.item_price
-FROM
-(
-	SELECT  *
-	FROM apply_activity_user AS y
-	WHERE y.apply_activity_id=93
-	AND y.member_id not IN ( SELECT member_id FROM select_action WHERE select_activity_id=4 AND select_status in (1,3,4)) 
-) AS u
-JOIN `hello`.`order` AS i
-ON u.order_id=i.id
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 1, 20870, 3, 20873, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 2, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
+
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 1, 20870, 4, 20874, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 2, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
+
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 2, 20871, 5, 20875, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 2, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
+
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 2, 20871, 6, 20876, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 2, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
+
+INSERT INTO `hello`.`select_action`
+(`select_activity_id`, `activity_user_id`, `member_id`, `select_activity_user_id`, `select_member_id`, `select_time`, `candidate_time`, `cancel_select_time`, `mutual_select_time`, `select_status`, `is_delete`, `create_time`, `modify_time`) 
+VALUES 
+(18, 3, 20873, 5, 20875, '2022-04-22 17:12:57', NULL, NULL, '2022-04-22 17:12:57', 2, 0, '2022-04-22 17:12:57', '2022-04-22 17:12:57');
